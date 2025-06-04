@@ -2,3 +2,5 @@ msrest== 0.7.*
 botframework-connector==4.17.0
 botbuilder-schema==4.17.0
 aiohttp==3.*.*
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
